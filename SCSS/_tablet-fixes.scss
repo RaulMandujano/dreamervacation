@@ -1,0 +1,68 @@
+.navbar .navbar-nav {margin-top: 5px;}
+.navbar .navbar-nav .nav-item{margin-left: 0;}
+.navbar .search-btn{display: none;}
+.navbar .navbar-nav{ width:260px; height: 100vh; position: fixed; left: -260px; top: 0; background: #393c3f; opacity: 1; visibility: visible; margin: 0; padding: 30px; @include transition;
+    &.active{left: 0;}}
+.navbar .navbar-nav .nav-item{width: 100%; float: left;}
+.navbar .navbar-nav .nav-item .nav-link{color: #fff !important;}
+.navbar .navbar-nav .nav-item .dropdown-menu{ position: static; opacity: 1; width: 100%; float:left; background: none; visibility: visible; display: none;}
+.navbar .navbar-nav .nav-item .dropdown-menu li .sub-dropdown-menu{ width: 100%; float:left; background: none; opacity: 1; visibility: visible; position: static; display: none; padding-left: 15px;}
+.menu-btn{display: block; margin-left: 20px;}
+.header-iceland .swiper-custom-pagination{margin: 0; left: 0; width:100%;}
+.header-denmark .swiper-slide h2{padding-right: 0;}
+.header-iceland .swiper-slide h2{padding-right: 0;}
+.header-norway .inner .content .hero-search{width: 100%; padding: 0 10%;}
+.header-finland .inner .content .hero-search{width: 100%;}
+.header-sweden .inner .content .hero-search{width: 100%;}
+.our-history .section-desc{padding-left: 0; margin-bottom: 30px}
+.our-history .wrapper .content{padding: 30px;}
+.our-history .wrapper .content .inner h4{font-size: 30px; line-height: 1;}
+.our-history .wrapper .content .inner p{font-size: 16px; line-height: 24px;}
+.our-history .wrapper figure{overflow: hidden;}
+.our-history .wrapper figure img{width: auto; height: 100%;}
+.welcome-intro .border-right{border: none !important;}
+.welcome-intro a{margin-bottom: 30px;}
+.tbox figure, .tbox figure{flex-basis: 220px;}
+.tbox .tour-content p, .tour-box-list .tour-content p{display: none;}
+.tbox .tour-content, .tour-box-list .tour-content{padding: 0 30px;}
+.tbox .tour-content ul li, .tour-box-list .tour-content ul li{text-align: center; padding-right: 10px; margin-right: 10px;}
+.tbox .tour-content ul li img, .tour-box-list .tour-content ul li img{float: none; display: inline-block; margin: 0;}
+.tbox .tour-content ul li span, .tour-box-list .tour-content ul li span{width: auto;}
+.tbox .tour-content a, .tour-box-list .tour-content a{padding: 0 20px; margin-top: 20px;}
+.tbox{flex-direction: row;}
+.tbox figure{flex: 1;}
+.tbox .tour-content{flex: 1; padding: 25px;}
+.our-team .team-member figure{padding: 0 20px;}
+.our-team .team-member figure img{width: 100%; height: auto;}
+.our-team .team-list li{width: 33.33333%;}
+.our-guides .guide-list li{width: 33.3333%;}
+.subscribe .inner{padding: 0;}
+.recent-blog .blog-post{flex-direction: row; margin-bottom: 30px;}
+.recent-blog .blog-post .post-image{flex: 1;}
+.recent-blog .blog-post .post-content{ flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+.footer .footer-menu{margin-bottom: 50px;}
+.steps{margin-bottom: 30px;}
+.info-box{margin: 5px 0;}
+.tour-box-list {flex-direction: column;}
+.tour-box-list .tour-content{padding: 40px;}
+.tour-box-list .inner{margin-top: 30px;}
+.tour-box-list ul{float: none; width: 100%;}
+.tour-box-list ul li{float: none; width: 30%;}
+.tour-box-list .tag {display: none;}
+.blog-post-list p{max-height: 100px; overflow: hidden;}
+.blog-post-list figure{flex-basis: 100%; width: 100%;}
+.blog-comments form{ margin-top: 30px;}
+.tour-box li:first-child div{float: none;}
+.tour-box li:last-child div{float: none;}
+.our-offices .office-box figure{flex-basis: 270px;}
+.our-offices .office-box .office-content{padding: 50px 60px;}
+.our-offices .col-lg-6:nth-child(even){padding-left: 0 !important;}
+.contact .contact-box{margin: 10px 0;}
+.checkout-header p {float: none; width: 100%;}
+.team-list > li{width: 50% !important;}
+.team-list > li:nth-child(even){ border-right: none;}
+.team-list > li:nth-child(odd){ border-right: 1px solid #dee0e2 !important;}
+.team-list > li:nth-last-child(-n+4):before{display: none !important;}
+.team-list > li:nth-last-child(-n+4){border-bottom: 1px solid #dee0e2 !important;}
+.popular-destinations .col-lg-6{padding: 15px 0;}
+.popular-destinations .col-lg-6:nth-child(odd){-webkit-transform: translateX(0px); transform: translateX(0px);}

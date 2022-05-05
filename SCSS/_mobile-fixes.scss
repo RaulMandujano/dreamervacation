@@ -1,0 +1,97 @@
+header{height: auto !important; min-height: auto !important;}
+header .swiper-slide h2{font-size: 44px !important;}
+header .swiper-slide .link{font-size: 15px !important;}
+header .inner .content h5{font-size: 20px !important;}
+header .inner .content h1{font-size: 44px !important; padding-right: 0 !important;}
+header .inner .content p{font-size: 14px !important; line-height: 20px !important;}
+header .inner .content .hero-search dl{display: none;}
+header .inner .content .hero-search form{flex-direction: column !important;}
+header .inner .content .hero-search form .form-group{margin-right: 0 !important;}
+.header-denmark .swiper-custom-pagination{display: none;}
+.header-iceland .swiper-custom-pagination{display: none;}
+.header-denmark{height: 100% !important;}
+.header-finland .inner .content h1 {margin-bottom: 30px;}
+.header-sweden .inner .content h1 {margin-bottom: 30px;}
+.header-iceland{height: 100% !important;}
+.search-box form{flex-direction: column;}
+.popular-destinations .destinations-box{flex-direction: column;}
+.popular-destinations .destinations-box .destinations-content .inner img{margin-right: 0;}
+.our-history .wrapper{flex-direction: column; margin-bottom: 30px;}
+.our-history .wrapper figure img{width: 100%; height: auto;}
+.section-title{text-align: center; margin-bottom: 10px;
+    img{float:none; display: inline-block;}}
+.section-title h2{font-size: 40px;}
+.subscribe .inner h2{font-size: 40px;}
+.subscribe .inner form{flex-direction: column;}
+.subscribe .inner form input{margin-right: 0; margin-bottom: 10px;}
+.about-us-desc .section-title{padding: 0;}
+.find-adventure form{flex-direction: column;}
+.tours-header .filter{width:100%; margin-bottom: 20px;}
+.tours-header .view-type{float: none; -webkit-transform: translateX(40%); padding: 0;}
+.tours-header .view-type li{margin-left:0; margin-right: 10px;}
+.blog-header .filter{width:100%; margin-bottom: 20px;}
+.blog-header .view-type{float: none; -webkit-transform: translateX(40%); padding: 0;}
+.blog-header .view-type li{margin-left:0; margin-right: 10px;}
+.tour-single-header h2{padding-right: 0; margin-bottom: 20px;}
+.tour-single-header .filter{width: 100%; margin-bottom: 5px;}
+.tour-desc .section-title{padding: 0;}
+.tour-overview ul li{text-align: center; margin-bottom: 20px;}
+.tour-overview ul li figure{width: 100%; margin-right: 0;}
+.tour-overview ul li figure img{width: 80px;}
+.tour-features .feature-box{width: 100%; margin-bottom: 30px; border: 0;}
+.tabs .nav-tabs li a{padding: 15px;}
+.tour-location .inner{flex-direction: column; }
+.tour-location .map-style{height: 400px; margin-top: 30px;}
+.related-blog .blog-post{flex-direction: column;}
+.related-blog .blog-post .post-content{padding: 30px;}
+.tour-information .accordion .card .card-body{padding-left: 0;}
+.tour-information .accordion .card .card-header a{ padding: 15px 0;}
+.milestones .odometer{margin-bottom: 30px;}
+.our-guides .guide-list li{width: 50%;}
+.tour-box{flex-direction: column;}
+.recent-blog .blog-post{flex-direction: column;}
+.things-todo .border-right{border: none !important;}
+.things-todo ul{width: 100%; li:last-child{border-bottom: 1px solid #dee0e2;}}
+.tbox{flex-direction: column;}
+.tbox p{display: none;}
+.tbox .tour-content{padding: 30px;}
+.tbox .tour-content a{width:100%;}
+.tbox .tour-content .tag{top: -20px;}
+.tbox .tour-content ul{width: 100%;}
+.tbox .tour-content ul li{width: 33.3333%; float: left; margin: 0; padding: 0; text-align: center;}
+.our-team .team-list li{width: 50%;}
+.steps{margin-bottom: 30px;}
+.checkout button{width: 100%;}
+.checkout .passengers .extras .inner{flex-direction: column;}
+.checkout .passengers .extras .left-side{margin-right: 0; margin-bottom: 6px;}
+.checkout .passengers-info form .inner{padding: 30px !important;}
+.checkout .passengers-info form input[type="checkbox"]{margin-left: 0; margin-right: 5px; display: inline-block;}
+.checkout .checklabel{display: inline-block; float: left; width: 90%;}
+.checkout .summary .summary-body{padding: 20px 30px;}
+.checkout .payment form .inner{padding: 30px !important;}
+.checkout .big,.checkout  .form-group,.checkout input[type="text"]{width: 100% !important; display: block; float: none; margin: 5px 0;}
+.contact .contact-box{border:none;}
+.our-offices .office-box{flex-direction: column;}
+.our-offices .office-box .office-content{padding: 30px;}
+.quote h2{font-size: 40px;}
+.quote p{padding: 0 5%;}
+.footer address{margin-bottom: 50px;}
+.footer .social-media{width:auto; &:before{display: none;}}
+.footer .social-media li:last-child{padding-left: 0;}
+.checkout-header h2{font-size: 50px; margin-bottom: 20px;}
+.tour-box-list{flex-direction: column;}
+.blog-post-list {flex-direction: column;}
+.blog-post-list figure{flex-basis: 100%; width: 100%;}
+.filter .dropdown-check:before{display: none;}
+.filter .dropdown-menu{left: 0 !important;}
+.popular-destinations figure{order: 1 !important;}
+.popular-destinations .destinations-content{order: 2 !important;}
+.navbar{
+    .dropdown-menu{background-color: transparent !important; border: 0px !important; box-shadow: none !important;
+        &:before{display: none !important;}
+        li:hover{background-color: transparent !important;}
+        a{color: white !important;
+            &:hover{color: $orange !important;}
+        }
+    }
+}

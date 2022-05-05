@@ -1,0 +1,22 @@
+@import "small-default";
+
+/* RESPONSIVE MEDIUM  FIXES */
+@media only screen and (max-width: 1199px), only screen and (max-device-width: 1139px) {
+	@import "medium";
+}
+
+/* RESPONSIVE TABLET FIXES */
+@media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {
+	
+	@import "tablet-fixes";
+
+}
+
+
+/* RESPONSIVE MOBILE FIXES */
+@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+
+	@import "mobile-fixes";
+
+}
+
